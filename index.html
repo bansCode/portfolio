@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- Navigation Bar-->
+    <nav>
+        <div class="left">
+            <a href="/">Banseok Kim</a>
+        </div>
+        
+        <div class="right">
+            <a href="http://linkedin.com/in/banseok-kim" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>Linkedin</span>
+            </a>
+
+            <a href="" target="_blank" rel="noopener noreferrer">
+                <i class="fa-solid fa-file"></i>
+                <span>Resume</span>
+            </a>            
+
+            <a href="mailto:bans.kim@mail.utoronto.ca">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <!--Section 1: Hero-->
+        <section class="hero-section">
+            <div class="text">
+                <h2>Hi, I'm Banseok</h2>
+                <p>
+                    I’m a third-year Civil Engineering student at the University of Toronto, specializing in structural engineering and passionate about designing safe and resilient structures. I have developed strong technical and leadership skills through projects, research, and service experiences.
+                </p>
+            
+                <div class="links">
+                    <a href="#skills">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+                    <a href="#projects">
+                        <i class="fa-solid fa-pen"></i>
+                        <span>Projects</span>
+                    </a>
+                    <a href="#contact">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="headshot">
+                <img src="images/photo.jpg" alt="Banseok Kim">
+            </div>
+        </section>
+
+        <!--Section 2: Skills-->
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">
+                I integrate hands-on experimentation with structural analysis and digital modelling. My technical skills includes software used across modern engineering practice, enabling me to design, simulate, and evaluate structural systems with precision.    
+            </div>
+
+            <div class="cells">
+                <div class="cell">
+                    <img src="images/sap-logo.png" alt="sap logo">
+                    <span>SAP2000</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/vic3d-logo.png" alt="vic3d logo">
+                    <span>VIC-3D</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/revit-logo.png" alt="revit logo">
+                    <span>Revit</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/autocad-logo.png" alt="autocad logo">
+                    <span>AutoCAD</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/rhino-logo.jpg" alt="rhino logo">
+                    <span>Rhinoceros</span>
+                </div>
+            </div>
+        </section>
+
+        <!--Section 3: Experience/Projects-->
+        <section id="projects" class="projects-section">
+            <h2>Projects and Experience</h2>
+            <p class="projects-subtitle">
+                My experiences range from hands-on lab work as a Structural Research Intern, where I studied the accuracy of Digital Image Correlation (DIC), to team projects like the College Street Bikeways Extension.
+            </p>
+            <div class="projects-cards">
+                <!-- Project 1-->
+                 <a href="projects/DIC.html" class="project-card">
+                    <img src="/images/projects/DIC-cover.png" alt="Digital Image Correlation Project">
+                    <div class="project-overlay">
+                        <span>Digital Image Correlation (DIC)</span>
+                    </div>
+                 </a>
+
+                 <!-- Project 2-->
+                 <a href="projects/CollegeStreet.html" class="project-card">
+                    <img src="/images/projects/CollegeStreet-1.png" alt="College Street Bikeways Extension Project">
+                    <div class="project-overlay">
+                        <span>College Street Bikeways Extension Project</span>
+                    </div>
+                 </a>
+
+                 <!-- Project 3 to be added-->
+                 <a href="projects/tobeadded." class="project-card">
+                    <img src="" alt="">
+                    <div class="project-overlay">
+                        <span>To be added</span>
+                    </div>
+                 </a>
+
+                 <!-- Project 4 to be added-->
+                 <a href="projects/" class="project-card">
+                    <img src="" alt="">
+                    <div class="project-overlay">
+                        <span>To be added</span>
+                    </div>
+                 </a>
+
+                 <!-- Project 5 to be added-->
+                 <a href="projects/" class="project-card">
+                    <img src="" alt="">
+                    <div class="project-overlay">
+                        <span>To be added</span>
+                    </div>
+                 </a>
+            </div>
+        </section>
+
+        <!--Section 4: Contact-->
+        <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+            <p class="contact-intro">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, cupiditate! Expedita voluptate suscipit, deleniti et cupiditate adipisci amet, corporis neque corrupti ducimus excepturi vel beatae atque esse. Possimus, distinctio non.
+            </p>
+
+            <div class="contact-details">
+                <p><strong>Name:</strong> Banseok Kim</p>
+                <p>
+                    <strong>Email:</strong>
+                    <a href="mailto:bans.kim@mail.utoronto.ca">bans.kim@mail.utoronto.ca</a>
+                </p>
+                <p>
+                    <strong>Location:</strong> Toronto, Canada
+                </p>
+                <p>
+                    <strong>LinkedIn:</strong>
+                    <a href="http://linkedin.com/in/banseok-kim" target="_blank" rel="noopener noreferrer">
+                        linkedin.com/in/banseok-kim
+                    </a>
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+</html> 
