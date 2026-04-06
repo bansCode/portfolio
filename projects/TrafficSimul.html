@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Reuse your fonts + icons if you like -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- NOTE: adjust path if your CSS is elsewhere -->
+    <link rel="stylesheet" href="../styles.css">
+
+    <title>Microscopic Simulation & Signal Optimization | Portfolio</title>
+</head>
+<body>
+    <!-- Navigation Bar (same as main site) -->
+    <nav>
+        <div class="left">
+            <a href="../index.html">Banseok Kim</a>
+        </div>
+        
+        <div class="right">
+            <a href="http://linkedin.com/in/banseok-kim" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>Linkedin</span>
+            </a>
+
+            <a href="/projects/resume.html">
+                <i class="fa-solid fa-file"></i>
+                <span>Resume</span>
+            </a>            
+
+            <a href="mailto:bans.kim@mail.utoronto.ca">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+        </div>
+    </nav>
+
+    <main class="project-page">
+        <section class="project-header">
+            <h1>Microscopic Simulation & Signal Optimization</h1>
+            <p class="project-role">
+                CIV332 Transportation II: Performance
+                <br>Jan 2026 &ndash; May 2026
+                <br>Co-contributor: Michael Hollander, Md Ahnaf Zafir, and Jonathan Tang
+            </p>
+        </section>
+
+        <section class="project-intro">
+            <p>
+                As part of a team of four in CIV332 at the University of Toronto, I contributed to a multi-stage traffic engineering project that used Aimsun — a professional microscopic traffic simulation software — to model, analyze, and optimize real-world traffic conditions along the QEW highway corridor and a signalized intersection in the Mississauga area.
+            </p>
+
+            <p>
+                My specific contributions focused on traffic signal design and simulation setup. I configured the Aimsun dynamic scenario parameters including statistics intervals, warm-up periods, and traffic assignment settings, then extracted critical lane flows for each signal phase from the simulation output. Using Webster's method, I calculated optimal cycle lengths, effective and actual green times per phase, and yellow clearance intervals. I also performed a pedestrian movement check to verify that signal timings satisfied minimum crossing time requirements, adjusting the WE-T phase green time accordingly to ensure pedestrian safety compliance.
+            </p>
+
+            <p>
+                The project also involved analyzing the impact of a highway incident on traffic delay and route diversion along the QEW and South Sheridan Way, as well as evaluating the effectiveness of ramp metering at two on-ramps using flow-density fundamental diagrams and exit flow data. Results showed that ramp metering at the west on-ramp — identified as the primary bottleneck — significantly reduced mean density from 95.9 to 37.8 veh/km and increased exit-based flow by approximately 9%, demonstrating the practical benefits of active traffic management strategies.
+            </p>
+        </section>
+
+        <section class="project-media">
+            <div class="project-gallery">
+                <figure class="project-image">
+                    <a href="../images/projects/Traffic1.png">
+                        <img src="../images/projects/Traffic1.png" alt="">
+                    </a>
+                </figure>
+
+                <figure class="project-image">
+                    <a href="../images/projects/Traffic2.png">
+                        <img src="../images/projects/Traffic2.png" alt="">
+                    </a>
+                </figure>
+
+                <figure class="project-image">
+                    <a href="../images/projects/Traffic3.png">
+                        <img src="../images/projects/Traffic3.png" alt="">
+                    </a>
+                </figure>
+            </div>
+        </section>
+
+        <section class="project-links">
+            <a href="../index.html">&larr; Back to main portfolio</a>
+        </section>
+
+    </main>
+</body>
+</html>
